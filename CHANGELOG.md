@@ -1,3 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+# [2.1.0](https://github.com/niyialimi/semver_test/compare/v2.0.2...v2.1.0) (2022-09-20)
+
+
+### Update
+
+* update the realse.yml file ([f2d1400](https://github.com/niyialimi/semver_test/commit/f2d14008101e808cc27241c8f3723d0217e1962e))
+* update the release.json file ([3d4e9f4](https://github.com/niyialimi/semver_test/commit/3d4e9f482b7ebc93c767af114bca9890b0dc2b7f))
+
 ## [2.0.2](https://github.com/niyialimi/semver_test/compare/v2.0.1...v2.0.2) (2022-09-20)
 
 
