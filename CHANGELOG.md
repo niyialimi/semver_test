@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/niyialimi/semver_test/compare/v2.0.1...v2.0.2) (2022-09-20)
+
+
+### Fix
+
+* add .pre-commit-config.yaml ([1203db0](https://github.com/niyialimi/semver_test/commit/1203db0260ad5b4cda2ad76a1062479028430a89))
+
 ## [2.0.1](https://github.com/niyialimi/semver_test/compare/v2.0.0...v2.0.1) (2022-09-20)
 
 
