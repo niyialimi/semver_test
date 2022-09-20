@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/niyialimi/semver_test/compare/v2.0.0...v2.0.1) (2022-09-20)
+
+
+### Fix
+
+* The test file was not needed so it was removed ([d9ecade](https://github.com/niyialimi/semver_test/commit/d9ecadea0a4c98d5c79a9a80effac7cad3cf8baf))
+
 # [2.0.0](https://github.com/niyialimi/semver_test/compare/v1.2.2...v2.0.0) (2022-09-20)
 
 
