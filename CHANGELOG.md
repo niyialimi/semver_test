@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/niyialimi/semver_test/compare/v1.2.1...v1.2.2) (2022-09-20)
+
+
+### Fix
+
+* The test file was not needed so it was removed ([813f8b8](https://github.com/niyialimi/semver_test/commit/813f8b8394f12053cae388e5c071a7e3ba3374c4))
+* The unecessary plugins were removed ([3f32526](https://github.com/niyialimi/semver_test/commit/3f32526013e92c397304ca45e995e2724eb07763))
+
 ## [1.2.1](https://github.com/niyialimi/semver_test/compare/v1.2.0...v1.2.1) (2022-09-20)
 
 
