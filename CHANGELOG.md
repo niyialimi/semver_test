@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/niyialimi/semver_test/compare/v1.2.0...v1.2.1) (2022-09-20)
+
+
+### Fix
+
+* pre-commit check ([066f126](https://github.com/niyialimi/semver_test/commit/066f12616ff2061aa87b569d3089172690ce6035))
+
 # [1.2.0](https://github.com/niyialimi/semver_test/compare/v1.1.0...v1.2.0) (2022-09-20)
 
 
