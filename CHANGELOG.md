@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/niyialimi/semver_test/compare/v1.0.1...v1.1.0) (2022-09-20)
+
+
+### Update
+
+* backwards-compatible enhancement or for a rule change that adds reported problems ([b46b634](https://github.com/niyialimi/semver_test/commit/b46b63475c7a69a68893b1866721fc1ecc93614f))
+
 ## [1.0.1](https://github.com/niyialimi/semver_test/compare/v1.0.0...v1.0.1) (2022-09-20)
 
 
