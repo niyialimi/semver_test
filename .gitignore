@@ -15,5 +15,3 @@ crash.log
 
 # .tfvars files
 *.tfvars
-
-*.pre-commit-config*
