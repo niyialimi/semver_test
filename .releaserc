@@ -1,50 +1,45 @@
 {
-    "branch": "main",
+    "branches": [
+        "main",
+        "master"
+        ],
+    "ci": false,
     "plugins": [
         [
-        "@semantic-release/commit-analyzer",
-        {
-            "preset": "eslint",
-            "releaseRules": [
-            { "tag": "Breaking", "release": "major" },
-            { "tag": "Build", "release": "minor" },
-            { "tag": "Chore", "release": "minor" },
-            { "tag": "Fix", "release": "patch" },
-            { "tag": "New", "release": "minor" },
-            { "tag": "Update", "release": "minor" },
-            { "tag": "Upgrade", "release": "minor" },
-            { "tag": "Docs", "release": "minor" }
-            ]
-        }
+            "@semantic-release/commit-analyzer",
+            {
+            "preset": "conventionalcommits"
+            }
         ],
         [
-        "@semantic-release/release-notes-generator",
-        {
-            "preset": "eslint",
-            "releaseRules": [
-            { "tag": "Breaking", "release": "major" },
-            { "tag": "Build", "release": "minor" },
-            { "tag": "Chore", "release": "minor" },
-            { "tag": "Fix", "release": "patch" },
-            { "tag": "New", "release": "minor" },
-            { "tag": "Update", "release": "minor" },
-            { "tag": "Upgrade", "release": "minor" },
-            { "tag": "Docs", "release": "minor" }
-            ]
-        }
+            "@semantic-release/release-notes-generator",
+            {
+            "preset": "conventionalcommits"
+            }
         ],
         [
-        "@semantic-release/changelog",
-        {
-            "changelogFile": "CHANGELOG.md"
-        }
+            "@semantic-release/github",
+            {
+            "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version} :tada:",
+            "labels": false,
+            "releasedLabels": false
+            }
         ],
-        "@semantic-release/github",
         [
-        "@semantic-release/git", {
-            "assets": ["CHANGELOG.md"],
-            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
+            "@semantic-release/changelog",
+            {
+            "changelogFile": "CHANGELOG.md",
+            "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+            "assets": [
+                "CHANGELOG.md"
+            ],
+            "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
         ]
-    ]
+        ]
 }
