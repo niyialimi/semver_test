@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/niyialimi/semver_test/compare/v1.0.0...v1.0.1) (2022-09-20)
+
+
+### Fix
+
+* removed some feature ([0996e6b](https://github.com/niyialimi/semver_test/commit/0996e6b822b2c4c2ae2bbf1b1612f35835e5cfca))
+* removed some feature ([cb29fd0](https://github.com/niyialimi/semver_test/commit/cb29fd0511abe451eacc1cf8f36400d6cd1d3d49))
+* removed some feature ([34acb78](https://github.com/niyialimi/semver_test/commit/34acb78cf647678770b3b4585065a15af4e938bb))
+
 # 1.0.0 (2022-09-20)
 
 
