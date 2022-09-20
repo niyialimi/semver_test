@@ -11,11 +11,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: actions/setup-node@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      - name: Semantic Release
+      - name: Release to GitHub
         uses: cycjimmy/semantic-release-action@v2.5.4
         with:
           semantic_version: 18.0.0
