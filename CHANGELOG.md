@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/niyialimi/semver_test/compare/v1.2.2...v2.0.0) (2022-09-20)
+
+
+### Breaking
+
+* new file added ([0fc4937](https://github.com/niyialimi/semver_test/commit/0fc49373319574368e3def3e55d2f825b993e245))
+
 ## [1.2.2](https://github.com/niyialimi/semver_test/compare/v1.2.1...v1.2.2) (2022-09-20)
 
 
