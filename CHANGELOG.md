@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.2.0](https://github.com/niyialimi/semver_test/compare/v2.1.1...v2.2.0) (2022-09-21)
+
+
+### Fix
+
+* an uneeded file removed ([448f67b](https://github.com/niyialimi/semver_test/commit/448f67b2115dbff2dbe30e1bad606ecda69987d5))
+
+### Update
+
+* .releaserc updated ([7ac5fc3](https://github.com/niyialimi/semver_test/commit/7ac5fc3ff31b7cd76ee33a2f01231adf3979d66a))
+
 ## [2.1.1](https://github.com/niyialimi/semver_test/compare/v2.1.0...v2.1.1) (2022-09-20)
 
 
