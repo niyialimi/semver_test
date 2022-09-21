@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.2](https://github.com/niyialimi/semver_test/compare/v3.3.1...v3.3.2) (2022-09-21)
+
+
+### Performance Improvements
+
+* change the commit rule to use Angular Commit Message Conventions ([c4e1cbb](https://github.com/niyialimi/semver_test/commit/c4e1cbb9d944b69b7d89edb92f8984a73fd5c003))
+
 ## [3.3.1](https://github.com/niyialimi/semver_test/compare/v3.3.0...v3.3.1) (2022-09-21)
 
 
