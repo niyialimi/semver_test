@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+# [3.6.0](https://github.com/niyialimi/semver_test/compare/v3.5.0...v3.6.0) (2022-09-21)
+
+
+### Features
+
+* pre-commit checks added to the workflow ([d5ea998](https://github.com/niyialimi/semver_test/commit/d5ea9985cdc0d818a101c64b84ff9ccbbc3bedee))
+* pre-commit checks added to the workflow ([b026db1](https://github.com/niyialimi/semver_test/commit/b026db10a1eb0f4a45d52224130f6610f7691621))
+* pre-commit checks added to the workflow ([38d675f](https://github.com/niyialimi/semver_test/commit/38d675f3a2497e823d3e8edc5fc16065213741d1))
+* pre-commit checks added to the workflow ([b3a49cd](https://github.com/niyialimi/semver_test/commit/b3a49cd247190f507b5469f972600ed645cc0f90))
+* pre-commit checks added to the workflow ([0a11e82](https://github.com/niyialimi/semver_test/commit/0a11e8255534b8761b4b14f1b94bcb5eb48f4bec))
+
 # [3.5.0](https://github.com/niyialimi/semver_test/compare/v3.4.0...v3.5.0) (2022-09-21)
 
 
