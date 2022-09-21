@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.3.1](https://github.com/niyialimi/semver_test/compare/v3.3.0...v3.3.1) (2022-09-21)
+
+
+### Bug Fixes
+
+* .pre-commit-config.yml file updated ([e281e63](https://github.com/niyialimi/semver_test/commit/e281e63f5b2597d3f6477064d1268478dcdf2c9c))
+* .pre-commit-config.yml file updated ([33a1d69](https://github.com/niyialimi/semver_test/commit/33a1d69fef349565682ed2e9ef56d14eeaed9fe8))
+
 # [3.3.0](https://github.com/niyialimi/semver_test/compare/v3.2.0...v3.3.0) (2022-09-21)
 
 
