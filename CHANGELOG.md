@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [3.2.0](https://github.com/niyialimi/semver_test/compare/v3.1.0...v3.2.0) (2022-09-21)
+
+
+### Update
+
+* Pre-commit files added ([f7edccc](https://github.com/niyialimi/semver_test/commit/f7edccc1458962615b60202e6cac5c83e87780e9))
+
 # [3.1.0](https://github.com/niyialimi/semver_test/compare/v3.0.0...v3.1.0) (2022-09-21)
 
 
