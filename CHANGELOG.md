@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [3.4.0](https://github.com/niyialimi/semver_test/compare/v3.3.2...v3.4.0) (2022-09-21)
+
+
+### Features
+
+* lots of changes mad. Check CHANGELOG.md ([60ff596](https://github.com/niyialimi/semver_test/commit/60ff596aeb3bb9de5a9efdc40374928ae3a18411))
+
 ## [3.3.2](https://github.com/niyialimi/semver_test/compare/v3.3.1...v3.3.2) (2022-09-21)
 
 
