@@ -23,11 +23,11 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_AWS_REGION"></a> [AWS\_REGION](#input\_AWS\_REGION) | AWS region for the deployment | `string` | `"ap-southeast-2"` | no |
-| <a name="input_acl"></a> [acl](#input\_acl) | The security permission for the S3 bucket | `string` | `"private"` | no |
-| <a name="input_billing_mode"></a> [billing\_mode](#input\_billing\_mode) | The billing mode | `string` | `"PAY_PER_REQUEST"` | no |
-| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | The S3 bucket name | `string` | `"niyi-alimi-state-file"` | no |
-| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The dynamodb table name | `string` | `"niyi-alimi-state-lock"` | no |
+| <a name="input_AWS_REGION"></a> [AWS\_REGION](#input\_AWS\_REGION) | AWS region for the deployment | `string` | n/a | yes |
+| <a name="input_acl"></a> [acl](#input\_acl) | The security permission for the S3 bucket | `string` | n/a | yes |
+| <a name="input_billing_mode"></a> [billing\_mode](#input\_billing\_mode) | The billing mode | `string` | n/a | yes |
+| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | The S3 bucket name | `string` | n/a | yes |
+| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The dynamodb table name | `string` | n/a | yes |
 
 ## Outputs
 
