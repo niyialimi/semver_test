@@ -1,4 +1,4 @@
-name: Release
+name: Quality checks and Release
 on:
   push:
     branches: [ main, master ]
@@ -18,12 +18,40 @@ jobs:
         with:
           extra_args:
             commitizen
+      - name: Pre-Commit format
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             terraform_fmt --all-files
+      - name: Pre-Commit validate
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             terraform_validate
+      - name: Pre-Commit docs
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             terraform_docs_replace
+      - name: Pre-Commit whitespace
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             trailing-whitespace
+      - name: Pre-Commit end of file
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             end-of-file-fixer
+      - name: Pre-Commit yml
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             check-yaml
+      - name: Pre-Commit large files
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args:
             check-added-large-files
 
       - name: Setup Node.js
