@@ -9,6 +9,6 @@ resource "aws_dynamodb_table" "state_lock" {
   billing_mode = var.billing_mode
 
   tags = {
-    "Name" = "${var.table_name}"
+    "Name" = var.table_name
   }
 }

@@ -6,7 +6,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.31.0 |
 
 ## Modules
 
@@ -23,8 +23,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_acl"></a> [acl](#input\_acl) | The security permission for the S3 bucket | `any` | n/a | yes |
-| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | The S3 bucket name | `any` | n/a | yes |
+| <a name="input_acl"></a> [acl](#input\_acl) | The security permission for the S3 bucket | `string` | n/a | yes |
+| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | The S3 bucket name | `string` | n/a | yes |
 
 ## Outputs
 

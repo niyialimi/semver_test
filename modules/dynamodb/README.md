@@ -6,7 +6,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.31.0 |
 
 ## Modules
 
@@ -22,8 +22,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_billing_mode"></a> [billing\_mode](#input\_billing\_mode) | The billing mode | `any` | n/a | yes |
-| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The dynamodb table name | `any` | n/a | yes |
+| <a name="input_billing_mode"></a> [billing\_mode](#input\_billing\_mode) | The billing mode | `string` | n/a | yes |
+| <a name="input_table_name"></a> [table\_name](#input\_table\_name) | The dynamodb table name | `string` | n/a | yes |
 
 ## Outputs
 
