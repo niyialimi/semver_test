@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.6.0](https://github.com/niyialimi/semver_test/compare/v2.5.0...v2.6.0) (2022-09-21)
+
+
+### Update
+
+* add pre-commit file which would also create the README.md file ([1186766](https://github.com/niyialimi/semver_test/commit/1186766c7ab28e2bcc56909dfe8af1d8de879379))
+
 # [2.5.0](https://github.com/niyialimi/semver_test/compare/v2.4.0...v2.5.0) (2022-09-21)
 
 
