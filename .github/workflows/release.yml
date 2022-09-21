@@ -23,16 +23,6 @@ jobs:
         with:
           extra_args:
             terraform_validate --all-files
-      - name: Pre-Commit whitespace
-        uses: pre-commit/action@v3.0.0
-        with:
-          extra_args:
-            trailing-whitespace --all-files
-      - name: Pre-Commit end of file
-        uses: pre-commit/action@v3.0.0
-        with:
-          extra_args:
-            end-of-file-fixer --all-files
       - name: Pre-Commit yml
         uses: pre-commit/action@v3.0.0
         with:
