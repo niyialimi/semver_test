@@ -5,7 +5,7 @@ module "s3_bucket" {
 }
 
 module "dynamodb" {
-  source         = "./modules/dynamodb"
-  table_name     = var.table_name
+  source       = "./modules/dynamodb"
+  table_name   = var.table_name
   billing_mode = var.billing_mode
 }

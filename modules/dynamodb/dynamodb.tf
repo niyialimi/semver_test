@@ -1,6 +1,6 @@
 resource "aws_dynamodb_table" "state_lock" {
-  name           = var.table_name
-  hash_key       = "LockID"
+  name     = var.table_name
+  hash_key = "LockID"
 
   attribute {
     name = "LockID"
