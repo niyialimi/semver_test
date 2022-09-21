@@ -27,7 +27,7 @@ jobs:
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            terraform_docs_replace --all-files
+            terraform_docs --all-files
       - name: Pre-Commit whitespace
         uses: pre-commit/action@v3.0.0
         with:
