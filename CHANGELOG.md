@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.2](https://github.com/niyialimi/semver_test/compare/v2.3.1...v2.3.2) (2022-09-21)
+
+
+### Fix
+
+* all files are properly formatted ([cdd5395](https://github.com/niyialimi/semver_test/commit/cdd53952f5a0a0aa960a351c8886f71e4c4d45c8))
+
 ## [2.3.1](https://github.com/niyialimi/semver_test/compare/v2.3.0...v2.3.1) (2022-09-21)
 
 
