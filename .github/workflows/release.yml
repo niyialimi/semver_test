@@ -17,7 +17,14 @@ jobs:
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
+            commitizen
             terraform_fmt --all-files
+            terraform_validate
+            terraform_docs_replace
+            trailing-whitespace
+            end-of-file-fixer
+            check-yaml
+            check-added-large-files
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
