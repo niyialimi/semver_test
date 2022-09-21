@@ -22,32 +22,32 @@ jobs:
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            terraform_validate
+            terraform_validate --all-files
       - name: Pre-Commit docs
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            terraform_docs_replace
+            terraform_docs_replace --all-files
       - name: Pre-Commit whitespace
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            trailing-whitespace
+            trailing-whitespace --all-files
       - name: Pre-Commit end of file
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            end-of-file-fixer
+            end-of-file-fixer --all-files
       - name: Pre-Commit yml
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            check-yaml
+            check-yaml --all-files
       - name: Pre-Commit large files
         uses: pre-commit/action@v3.0.0
         with:
           extra_args:
-            check-added-large-files
+            check-added-large-files --all-files
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
