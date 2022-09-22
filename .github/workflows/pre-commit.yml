@@ -30,6 +30,11 @@ jobs:
       with:
         extra_args:
           check-yaml --all-files
+    - name: Pre-Commit json
+      uses: pre-commit/action@v3.0.0
+      with:
+        extra_args:
+          check-json --all-files
     - name: Pre-Commit large files
       uses: pre-commit/action@v3.0.0
       with:
