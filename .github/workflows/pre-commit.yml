@@ -14,50 +14,42 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     
-    # - name: Pre-Commit format
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       terraform_fmt --all-files
-
-    # - name: Pre-Commit validate
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       terraform_validate --all-files
-
-    # - name: Pre-Commit yml
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       check-yaml --all-files
-
-    # - name: Pre-Commit json
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       check-json --all-files
-
-    # - name: Pre-Commit large files
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       check-added-large-files --all-files
-
-    # - name: Pre-Commit terraform_docs
-    #   uses: pre-commit/action@v3.0.0
-    #   with:
-    #     extra_args:
-    #       terraform_docs --all-files
-      
-    # env:
-    #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
-    # Run only skipped checks
-    - name: Execute pre-commit check that have no auto-fixes
-      if: always()
+    - name: Pre-Commit format
       uses: pre-commit/action@v2.0.0
-      env:
-        SKIP: terraform_fmt,terraform_validate,check-added-large-files,end-of-file-fixer,trailing-whitespace,check-yaml,terraform_docs
       with:
-        extra_args: --color=always --show-diff-on-failure --files ${{ steps.file_changes.outputs.files }}
+        extra_args:
+          terraform_fmt --all-files
+
+    - name: Pre-Commit validate
+      uses: pre-commit/action@v3.0.0
+      with:
+        extra_args:
+          terraform_validate --all-files
+
+    - name: Pre-Commit yml
+      uses: pre-commit/action@v2.0.0
+      with:
+        extra_args:
+          check-yaml --all-files
+
+    - name: Pre-Commit json
+      uses: pre-commit/action@v2.0.0
+      with:
+        extra_args:
+          check-json --all-files
+
+    - name: Pre-Commit large files
+      uses: pre-commit/action@v2.0.0
+      with:
+        extra_args:
+          check-added-large-files --all-files
+
+    - name: Pre-Commit terraform_docs
+      uses: pre-commit/action@v2.0.0
+      with:
+        extra_args:
+          terraform_docs --all-files
+          --color=always --show-diff-on-failure --files ${{ steps.file_changes.outputs.files }}
+      
+    env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
