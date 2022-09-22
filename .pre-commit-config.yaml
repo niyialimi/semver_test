@@ -15,7 +15,6 @@ repos:
     # - id: terraform_tfsec
     # - id: terraform_checkov
     - id: terraform_docs
-      always_run: true
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.0.1
