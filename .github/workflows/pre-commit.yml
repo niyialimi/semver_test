@@ -1,4 +1,4 @@
-name: Check for ssues
+name: Check for issues
 
 on:
   push:
@@ -16,29 +16,4 @@ jobs:
     
     - name: Pre-Commit format
       uses: pre-commit/action@v3.0.0
-      with:
-        extra_args:
-          terraform_fmt --all-files
-
-    - name: Pre-Commit validate
-      uses: pre-commit/action@v3.0.0
-      with:
-        extra_args:
-          terraform_validate --all-files
-    - name: Pre-Commit yml
-      uses: pre-commit/action@v3.0.0
-      with:
-        extra_args:
-          check-yaml --all-files
-    - name: Pre-Commit json
-      uses: pre-commit/action@v3.0.0
-      with:
-        extra_args:
-          check-json --all-files
-    - name: Pre-Commit large files
-      uses: pre-commit/action@v3.0.0
-      with:
-        extra_args:
-          check-added-large-files --all-files
-    env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
