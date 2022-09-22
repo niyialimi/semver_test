@@ -16,4 +16,3 @@ jobs:
 
     - name: Pre-Commit format
       uses: pre-commit/action@v2.0.0
-
