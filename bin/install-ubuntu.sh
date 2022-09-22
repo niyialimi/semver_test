@@ -21,3 +21,4 @@ pre-commit init-templatedir ~/.git-template
 
 echo 'installing terraform with tfenv'
 tfenv install
+tfenv use 4.15.0
