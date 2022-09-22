@@ -14,5 +14,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pre-Commit format
-      uses: pre-commit/action@v2.0.0
+    - name: Set up Python
+      uses: actions/setup-python@v2
+
+    - name: Install prerequisites
+      run: ./bin/install-ubuntu.sh
+
+    - name: Pre-Commit
+      uses: pre-commit/action@v2.0.3
