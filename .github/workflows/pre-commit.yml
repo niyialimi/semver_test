@@ -19,6 +19,8 @@ jobs:
 
     - name: Install prerequisites
       run: ./bin/install-ubuntu.sh
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Pre-Commit
       uses: pre-commit/action@v2.0.3
