@@ -32,11 +32,11 @@ jobs:
         extra_args:
           check-yaml --all-files
 
-    - name: Pre-Commit json
+    - name: Pre-Commit lint
       uses: pre-commit/action@v2.0.0
       with:
         extra_args:
-          check-json --all-files
+          terraform_tflint --all-files
 
     - name: Pre-Commit large files
       uses: pre-commit/action@v2.0.0
@@ -44,12 +44,6 @@ jobs:
         extra_args:
           check-added-large-files --all-files
 
-    - name: Pre-Commit terraform_docs
-      uses: pre-commit/action@v2.0.0
-      with:
-        extra_args:
-          terraform_docs --all-files
-          --color=always --show-diff-on-failure --files ${{ steps.file_changes.outputs.files }}
-
+    
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
