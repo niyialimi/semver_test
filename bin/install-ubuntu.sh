@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'installing dependencies'
-apt install python3-pip gawk &&\
+sudo apt install python3-pip gawk &&\
 pip3 install pre-commit
 tfdocs_latest_dl_url=$(curl -sL https://api.github.com/repos/terraform-docs/terraform-docs/releases/latest | grep -o -E "https://.+?-linux-amd64" | tail -n1)
 curl -L "$tfdocs_latest_dl_url" > terraform-docs && chmod +x terraform-docs && sudo mv terraform-docs /usr/bin/
