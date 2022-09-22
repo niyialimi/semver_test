@@ -26,4 +26,3 @@ resource "aws_dynamodb_table" "state_lock" {
     "Name" = var.table_name
   }
 }
-
