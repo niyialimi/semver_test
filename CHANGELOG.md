@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.6.7](https://github.com/niyialimi/semver_test/compare/v3.6.6...v3.6.7) (2022-09-23)
+
+
+### Bug Fixes
+
+* update pre-commit rule ([cca111e](https://github.com/niyialimi/semver_test/commit/cca111e16f6a55b5f7748b830895385a27dc89a3))
+
 ## [3.6.6](https://github.com/niyialimi/semver_test/compare/v3.6.5...v3.6.6) (2022-09-23)
 
 
